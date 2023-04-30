@@ -4,10 +4,10 @@ using namespace std;
 int main() {
 	int choix ;
     std::fstream fichier("emploi du tempsGIS2.pdf", std::ios::out | std::ios::binary);
-    cout<<"pour affiches les professeurs seulement tapez: 1"<<endl ;
-    cout<<"pour affiches les salles seulement tapez     : 2"<<endl ;
-    cout<<"pour affiches les matires seulement tapez    : 3"<<endl ;
-    cout<<"pour quiter tapez                            : 0"<<endl ;
+    cout<<"pour affiches les professeurs seulement tapez: 1 "<<endl ;
+    cout<<"pour affiches les salles seulement tapez     : 2 "<<endl ;
+    cout<<"pour affiches les matires seulement tapez    : 3 "<<endl ;
+    cout<<"pour quiter tapez                            : 0 "<<endl ;
     cin>>choix ;
     switch(choix)
     	{
